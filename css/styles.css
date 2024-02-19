@@ -6,7 +6,4 @@ body{
 }
 #myStudentId{
     visibility: hidden;
-    position: absolute;
-    padding: 0px 370px;
-    margin: 1px;
 }
