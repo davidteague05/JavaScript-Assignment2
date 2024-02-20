@@ -26,6 +26,7 @@ function changeCustomColor(){
 
 // function to change bg color from random no.
 function changeRandomColor() {
+    studentId.style.visibility = "visible";
     var randNum = Math.floor(Math.random()*(100-1))+1;
     console.log(randNum);
     if(randNum <= 20 && randNum >= 0){
@@ -45,6 +46,7 @@ function changeRandomColor() {
 
 // function to generate options for select list
 function addList() {
+    studentId.style.visibility = "visible";
     // Tip: you might have to check length condition so that the list does not keep growing when clicked
     // Tip: use createElement and appendChild inside every for loop to add elements to select list from array 
     var imageArray = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"]; // Array containing image file paths
